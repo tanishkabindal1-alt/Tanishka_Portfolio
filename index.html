@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Tanishka Bindal - 1st Year B.Tech Computer Science Engineering student at JECRC University, Jaipur.">
+  <meta name="keywords" content="Tanishka Bindal, Portfolio, Computer Science, B.Tech CSE, JECRC University, Web Developer, AI, Python, C">
+  <meta name="author" content="Tanishka Bindal">
+  <title>Tanishka Bindal | Portfolio - B.Tech CSE Student</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Ambient Glows -->
+  <div class="glow-sphere glow-1" aria-hidden="true"></div>
+  <div class="glow-sphere glow-2" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#home" class="logo">
+        <span class="logo-bracket">&lt;</span>TB<span class="logo-bracket">/&gt;</span>
+        <span class="logo-text">Tanishka</span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#interests" class="nav-link">Interests</a></li>
+          <li class="nav-item"><a href="#goals" class="nav-link">Goals</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle light/dark theme" title="Toggle theme">
+          <i data-lucide="sun" class="sun-icon"></i>
+          <i data-lucide="moon" class="moon-icon"></i>
+        </button>
+
+        <a href="#contact" class="btn btn-sm btn-primary hide-mobile">Let's Connect</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="nav-toggle" class="icon-btn mobile-toggle" aria-label="Open mobile menu" aria-expanded="false">
+          <i data-lucide="menu" class="hamburger-icon"></i>
+          <i data-lucide="x" class="close-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay & Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="drawer-content">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Me</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#achievements" class="mobile-nav-link">Achievements</a></li>
+        <li><a href="#interests" class="mobile-nav-link">Interests</a></li>
+        <li><a href="#goals" class="mobile-nav-link">Career Goals</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <div class="drawer-footer">
+        <a href="#contact" class="btn btn-primary btn-block">Send a Message</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- 1. HOME / HERO SECTION -->
+    <section class="section hero" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>First-Year B.Tech CSE Student • JECRC University</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Tanishka Bindal</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            <span class="dynamic-prefix">Passionate about </span>
+            <span id="typewriter-text" class="typewriter-text">Computer Science</span>
+            <span class="cursor">|</span>
+          </h2>
+
+          <p class="hero-description">
+            First-year Computer Science Engineering undergraduate at JECRC University, Jaipur. Building a strong foundation in programming, web development, and artificial intelligence with a drive to create impactful solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Work</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span>Get in Touch</span>
+              <i data-lucide="mail"></i>
+            </a>
+          </div>
+
+          <!-- Social Links with placeholders -->
+          <div class="hero-socials">
+            <span class="socials-label">Connect:</span>
+            <!-- GitHub Profile -->
+            <a href="https://github.com/tanishkabindal1-alt" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub Profile">
+              <i data-lucide="github"></i>
+              <span class="sr-only">GitHub</span>
+            </a>
+            <!-- LinkedIn Profile -->
+            <a href="https://www.linkedin.com/in/tanishka-bindal-29177042b" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn Profile">
+              <i data-lucide="linkedin"></i>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+            <a href="mailto:tanishkabindal.work@gmail.com" class="social-icon" title="Email Tanishka">
+              <i data-lucide="mail"></i>
+              <span class="sr-only">Email</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card glassmorphism">
+            <div class="card-header-bar">
+              <span class="window-dot dot-red"></span>
+              <span class="window-dot dot-yellow"></span>
+              <span class="window-dot dot-green"></span>
+              <span class="window-title">tanishka.developer.cpp</span>
+            </div>
+            <div class="code-preview">
+              <pre><code><span class="code-keyword">#include</span> <span class="code-string">&lt;iostream&gt;</span>
+
+<span class="code-keyword">struct</span> <span class="code-type">StudentDeveloper</span> {
+    <span class="code-type">string</span> name = <span class="code-string">"Tanishka Bindal"</span>;
+    <span class="code-type">string</span> university = <span class="code-string">"JECRC University"</span>;
+    <span class="code-type">string</span> major = <span class="code-string">"B.Tech CSE"</span>;
+    <span class="code-type">int</span> year = <span class="code-number">1</span>;
+    <span class="code-type">bool</span> eagerToLearn = <span class="code-keyword">true</span>;
+};
+
+<span class="code-type">int</span> <span class="code-func">main</span>() {
+    <span class="code-type">StudentDeveloper</span> me;
+    std::cout &lt;&lt; <span class="code-string">"Ready to innovate!\n"</span>;
+    <span class="code-keyword">return</span> <span class="code-number">0</span>;
+}</code></pre>
+            </div>
+            <div class="floating-badge badge-top">
+              <i data-lucide="code-2" class="badge-icon"></i>
+              <span>C & Python Coder</span>
+            </div>
+            <div class="floating-badge badge-bottom">
+              <i data-lucide="sparkles" class="badge-icon"></i>
+              <span>AI & Web Explorer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Overview</p>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-content">
+            <h3 class="about-heading">
+              Passionate First-Year B.Tech CSE Student Driven by Curiosity & Code
+            </h3>
+            <p class="about-paragraph">
+              Hello! I'm <strong>Tanishka Bindal</strong>, an enthusiastic first-year Computer Science and Engineering undergraduate at <strong>JECRC University, Jaipur</strong>. Having completed my high school in Science with Physics, Chemistry, and Mathematics (PCM) under the CBSE board, my natural inclination toward analytical reasoning and logic guided me into Computer Science.
+            </p>
+            <p class="about-paragraph">
+              Currently, I am diving deep into programming fundamentals with <strong>C</strong> and <strong>Python</strong>, building web applications with <strong>HTML, CSS, and JavaScript</strong>, and leveraging cutting-edge <strong>AI tools</strong> to accelerate my learning. I thrive on solving logical challenges, understanding how systems work under the hood, and collaborating on meaningful tech initiatives.
+            </p>
+
+            <div class="about-key-points">
+              <div class="point-item">
+                <div class="point-icon"><i data-lucide="check-circle-2"></i></div>
+                <div>
+                  <strong>Quick Learner:</strong> Rapidly absorbing core computer science principles and software tools.
+                </div>
+              </div>
+              <div class="point-item">
+                <div class="point-icon"><i data-lucide="check-circle-2"></i></div>
+                <div>
+                  <strong>Analytical Mindset:</strong> Solid foundation in PCM fostering strong problem-solving abilities.
+                </div>
+              </div>
+              <div class="point-item">
+                <div class="point-icon"><i data-lucide="check-circle-2"></i></div>
+                <div>
+                  <strong>Curiosity Driven:</strong> Enthusiastic about modern web architecture and artificial intelligence.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cards-container">
+            <div class="info-card glassmorphism">
+              <div class="info-card-icon">
+                <i data-lucide="graduation-cap"></i>
+              </div>
+              <div>
+                <span class="info-card-label">Current Academic Level</span>
+                <h4 class="info-card-val">First Year B.Tech CSE</h4>
+                <p class="info-card-sub">JECRC University, Jaipur</p>
+              </div>
+            </div>
+
+            <div class="info-card glassmorphism">
+              <div class="info-card-icon">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div>
+                <span class="info-card-label">Current Location</span>
+                <h4 class="info-card-val">Jaipur, Rajasthan</h4>
+                <p class="info-card-sub">India</p>
+              </div>
+            </div>
+
+            <div class="info-card glassmorphism">
+              <div class="info-card-icon">
+                <i data-lucide="terminal"></i>
+              </div>
+              <div>
+                <span class="info-card-label">Primary Focus</span>
+                <h4 class="info-card-val">Computer Fundamentals & Dev</h4>
+                <p class="info-card-sub">Logic building, C, Python & Web</p>
+              </div>
+            </div>
+
+            <div class="info-card glassmorphism">
+              <div class="info-card-icon">
+                <i data-lucide="brain"></i>
+              </div>
+              <div>
+                <span class="info-card-label">Tech Affinity</span>
+                <h4 class="info-card-val">AI & Emerging Technologies</h4>
+                <p class="info-card-sub">Prompt engineering & AI tools</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. EDUCATION SECTION -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Academic Journey</p>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1: B.Tech CSE -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i data-lucide="school"></i>
+            </div>
+            <div class="timeline-card glassmorphism">
+              <div class="timeline-header">
+                <div>
+                  <span class="badge badge-ongoing">Currently Pursuing</span>
+                  <h3 class="timeline-title">B.Tech in Computer Science & Engineering</h3>
+                  <h4 class="timeline-institution">JECRC University, Jaipur</h4>
+                </div>
+                <div class="timeline-period">
+                  <i data-lucide="calendar"></i>
+                  <span>First Year • 2026 – Present</span>
+                </div>
+              </div>
+              <p class="timeline-desc">
+                Engaged in foundational computer science coursework, including algorithmic problem solving, structured programming in C, computational mathematics, digital logic, and introduction to modern engineering practices.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">C Programming</span>
+                <span class="tag">Computer Fundamentals</span>
+                <span class="tag">Engineering Mathematics</span>
+                <span class="tag">Data & Logic</span>
+                <span class="tag">Jaipur Campus</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Class 12 CBSE -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <i data-lucide="book-open"></i>
+            </div>
+            <div class="timeline-card glassmorphism">
+              <div class="timeline-header">
+                <div>
+                  <span class="badge badge-completed">Completed</span>
+                  <h3 class="timeline-title">Senior Secondary School (Class 12)</h3>
+                  <h4 class="timeline-institution">CBSE (Central Board of Secondary Education)</h4>
+                </div>
+                <div class="timeline-period">
+                  <i data-lucide="calendar"></i>
+                  <span>High School</span>
+                </div>
+              </div>
+              <p class="timeline-desc">
+                Completed secondary education with a rigorous specialization in Physics, Chemistry, and Mathematics (PCM). Developed a disciplined scientific temperament, quantitative aptitude, and an affinity for computational problem-solving.
+              </p>
+              <div class="timeline-tags">
+                <span class="tag">PCM Stream</span>
+                <span class="tag">Mathematics</span>
+                <span class="tag">Physics</span>
+                <span class="tag">Chemistry</span>
+                <span class="tag">CBSE Board</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SKILLS SECTION -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Capabilities</p>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            A solid, growing set of programming, web, and technological foundations.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category-card glassmorphism">
+            <div class="category-header">
+              <div class="category-icon icon-purple">
+                <i data-lucide="code"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Programming Languages</h3>
+                <p class="category-subtitle">Core coding fundamentals</p>
+              </div>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">C Language</span>
+                  <span class="skill-level">Core Syntax & Pointers</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 75%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python (Basic)</span>
+                  <span class="skill-level">Syntax, Scripts & Logic</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category-card glassmorphism">
+            <div class="category-header">
+              <div class="category-icon icon-blue">
+                <i data-lucide="layout"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Web Development</h3>
+                <p class="category-subtitle">Building modern responsive interfaces</p>
+              </div>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-level">Semantic Markup & Structure</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">CSS3</span>
+                  <span class="skill-level">Flexbox, Grid & Responsive UI</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 80%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-level">DOM & Interactive Logic</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 65%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI Tools & Modern Workflow -->
+          <div class="skill-category-card glassmorphism">
+            <div class="category-header">
+              <div class="category-icon icon-cyan">
+                <i data-lucide="cpu"></i>
+              </div>
+              <div>
+                <h3 class="category-title">AI & Productivity Tools</h3>
+                <p class="category-subtitle">Leveraging modern AI systems</p>
+              </div>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Generative AI Tools</span>
+                  <span class="skill-level">ChatGPT, Claude, Gemini</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">AI Developer Assistants</span>
+                  <span class="skill-level">Code Generation & Debugging</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 80%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Prompt Engineering</span>
+                  <span class="skill-level">Effective Workflow Queries</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 75%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Computer Fundamentals -->
+          <div class="skill-category-card glassmorphism">
+            <div class="category-header">
+              <div class="category-icon icon-amber">
+                <i data-lucide="layers"></i>
+              </div>
+              <div>
+                <h3 class="category-title">Computer Fundamentals</h3>
+                <p class="category-subtitle">Essential engineering principles</p>
+              </div>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Computer Fundamentals</span>
+                  <span class="skill-level">Hardware, OS & Memory Concepts</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Logic Building</span>
+                  <span class="skill-level">Control Structures & Flowcharts</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 80%;"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Development Tools</span>
+                  <span class="skill-level">VS Code, Git & GitHub (Basics)</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 70%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PROJECTS SECTION -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Practical Work</p>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Authentic projects and practical code experiments developed during my B.Tech studies.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Personal Portfolio -->
+          <article class="project-card glassmorphism">
+            <div class="project-badge-tag">Current Project</div>
+            <div class="project-body">
+              <div class="project-icon-wrapper">
+                <i data-lucide="globe"></i>
+              </div>
+              <h3 class="project-title">Responsive Personal Portfolio</h3>
+              <p class="project-description">
+                A clean, modern, and mobile-friendly portfolio website built from the ground up to showcase my academic profile, programming skills, education, and career vision. Includes dark/light mode and interactive components.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">HTML5</span>
+                <span class="tech-pill">CSS3</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Responsive Design</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/tanishkabindal1-alt/portfolio" target="_blank" rel="noopener noreferrer" class="project-link" title="GitHub Repository">
+                <i data-lucide="github"></i>
+                <span>Repository</span>
+              </a>
+              <a href="#home" class="project-link link-highlight">
+                <i data-lucide="external-link"></i>
+                <span>Live View</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: C Programming Utility -->
+          <article class="project-card glassmorphism">
+            <div class="project-badge-tag">Academic Practice</div>
+            <div class="project-body">
+              <div class="project-icon-wrapper">
+                <i data-lucide="terminal"></i>
+              </div>
+              <h3 class="project-title">C Console Utility & Logic Builder</h3>
+              <p class="project-description">
+                A modular console-based application implemented in C language demonstrating fundamental programming principles: formatted I/O, control flow, functions, arrays, and pointer manipulation for structured problem solving.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">C</span>
+                <span class="tech-pill">Algorithms</span>
+                <span class="tech-pill">Data Structures (Basics)</span>
+                <span class="tech-pill">CLI</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/tanishkabindal1-alt/c-projects" target="_blank" rel="noopener noreferrer" class="project-link" title="GitHub Repository">
+                <i data-lucide="github"></i>
+                <span>Repository</span>
+              </a>
+              <span class="project-status-note">
+                <i data-lucide="code"></i> Console App
+              </span>
+            </div>
+          </article>
+
+          <!-- Project 3: Python Scripting / Mini Tools -->
+          <article class="project-card glassmorphism">
+            <div class="project-badge-tag">Exploration</div>
+            <div class="project-body">
+              <div class="project-icon-wrapper">
+                <i data-lucide="file-code"></i>
+              </div>
+              <h3 class="project-title">Python Automation & Mini Utilities</h3>
+              <p class="project-description">
+                A collection of basic Python scripts exploring string operations, mathematical computation, data handling, and algorithmic problem solving designed to reinforce programming fluency and clean code habits.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Scripts</span>
+                <span class="tech-pill">Logic Building</span>
+                <span class="tech-pill">Automation</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/tanishkabindal1-alt/python-scripts" target="_blank" rel="noopener noreferrer" class="project-link" title="GitHub Repository">
+                <i data-lucide="github"></i>
+                <span>Repository</span>
+              </a>
+              <span class="project-status-note">
+                <i data-lucide="clock"></i> Active
+              </span>
+            </div>
+          </article>
+
+          <!-- Project 4: In Progress Showcase -->
+          <article class="project-card glassmorphism card-future">
+            <div class="project-badge-tag tag-upcoming">In Development</div>
+            <div class="project-body">
+              <div class="project-icon-wrapper icon-sparkle">
+                <i data-lucide="sparkles"></i>
+              </div>
+              <h3 class="project-title">AI-Powered Web Explorer</h3>
+              <p class="project-description">
+                An upcoming project combining front-end web development with artificial intelligence API tools to build interactive utilities for students. Focusing on user-friendly interface design and intelligent assistance.
+              </p>
+              <div class="project-tech-stack">
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">AI APIs</span>
+                <span class="tech-pill">Web UI</span>
+                <span class="tech-pill">Coming Soon</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <span class="project-status-note">
+                <i data-lucide="git-branch"></i> Upcoming in Year 1
+              </span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CERTIFICATIONS & ACHIEVEMENTS SECTION -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Milestones & Learning</p>
+          <h2 class="section-title">Certifications & <span class="gradient-text">Achievements</span></h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Academic milestones, workshop participations, and continuous skill certifications.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Achievement 1 -->
+          <div class="achievement-card glassmorphism">
+            <div class="achievement-icon">
+              <i data-lucide="award"></i>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <span class="badge">Academic Foundation</span>
+                <span class="achievement-date">2026</span>
+              </div>
+              <h3 class="achievement-title">Admission to B.Tech Computer Science Engineering</h3>
+              <h4 class="achievement-issuer">JECRC University, Jaipur</h4>
+              <p class="achievement-text">
+                Successfully enrolled in the undergraduate B.Tech CSE program at JECRC University following completion of senior secondary CBSE education with PCM.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 2: Programming Certification Placeholder -->
+          <div class="achievement-card glassmorphism">
+            <div class="achievement-icon">
+              <i data-lucide="file-check-2"></i>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <span class="badge">Course Certification</span>
+                <span class="achievement-date">First Year</span>
+              </div>
+              <h3 class="achievement-title">Programming Fundamentals & C Language</h3>
+              <h4 class="achievement-issuer">Academic Coursework & Online Learning</h4>
+              <p class="achievement-text">
+                Certified coursework covering structured programming concepts, functions, pointers, modular code development, and algorithmic logic.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 3: AI & Web Tools Workshop / Course -->
+          <div class="achievement-card glassmorphism">
+            <div class="achievement-icon">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <span class="badge">Technical Growth</span>
+                <span class="achievement-date">Ongoing</span>
+              </div>
+              <h3 class="achievement-title">Front-End Foundations & AI Tooling Workshop</h3>
+              <h4 class="achievement-issuer">Self-Paced / University Tech Sessions</h4>
+              <p class="achievement-text">
+                Hands-on practice with semantic HTML, modern responsive CSS layouts, and practical workflows utilizing AI assistants for accelerated coding.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="achievements-callout glassmorphism">
+          <i data-lucide="compass" class="callout-icon"></i>
+          <p>
+            <strong>Continuously expanding:</strong> As a first-year student, I am actively preparing for upcoming competitive programming challenges, college hackathons, and technical certifications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. INTERESTS SECTION -->
+    <section class="section section-alt" id="interests">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Passions & Focus</p>
+          <h2 class="section-title">Areas of <span class="gradient-text">Interest</span></h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            The domains in technology that spark my curiosity and inspire my journey.
+          </p>
+        </div>
+
+        <div class="interests-grid">
+          <!-- Interest 1: Computer Science -->
+          <div class="interest-card glassmorphism">
+            <div class="interest-icon-box icon-purple">
+              <i data-lucide="binary"></i>
+            </div>
+            <h3 class="interest-title">Computer Science & Algorithms</h3>
+            <p class="interest-description">
+              Fascinated by core computational theory, data structures, and how efficient algorithms solve complex mathematical and real-world problems.
+            </p>
+            <div class="interest-tags">
+              <span>DSA</span>
+              <span>Logic Building</span>
+              <span>System Design</span>
+            </div>
+          </div>
+
+          <!-- Interest 2: Artificial Intelligence -->
+          <div class="interest-card glassmorphism">
+            <div class="interest-icon-box icon-cyan">
+              <i data-lucide="bot"></i>
+            </div>
+            <h3 class="interest-title">Artificial Intelligence</h3>
+            <p class="interest-description">
+              Excited by generative AI, machine learning capabilities, neural systems, and how intelligent models transform productivity and engineering.
+            </p>
+            <div class="interest-tags">
+              <span>Generative AI</span>
+              <span>Machine Learning</span>
+              <span>AI Tools</span>
+            </div>
+          </div>
+
+          <!-- Interest 3: Web Development -->
+          <div class="interest-card glassmorphism">
+            <div class="interest-icon-box icon-blue">
+              <i data-lucide="layout-template"></i>
+            </div>
+            <h3 class="interest-title">Web Development</h3>
+            <p class="interest-description">
+              Passionate about creating clean, visually engaging, responsive, and user-friendly digital experiences using modern web standards.
+            </p>
+            <div class="interest-tags">
+              <span>Front-End</span>
+              <span>Responsive UI</span>
+              <span>Interactive UX</span>
+            </div>
+          </div>
+
+          <!-- Interest 4: Programming & Problem Solving -->
+          <div class="interest-card glassmorphism">
+            <div class="interest-icon-box icon-green">
+              <i data-lucide="code-2"></i>
+            </div>
+            <h3 class="interest-title">Programming & Coding</h3>
+            <p class="interest-description">
+              Enjoying the craft of writing readable, well-structured code in C and Python, continually refining logic, and practicing problem solving.
+            </p>
+            <div class="interest-tags">
+              <span>C Language</span>
+              <span>Python</span>
+              <span>Clean Code</span>
+            </div>
+          </div>
+
+          <!-- Interest 5: Emerging Technologies -->
+          <div class="interest-card glassmorphism">
+            <div class="interest-icon-box icon-amber">
+              <i data-lucide="lightbulb"></i>
+            </div>
+            <h3 class="interest-title">Learning New Technologies</h3>
+            <p class="interest-description">
+              Constantly curious about emerging developer tools, cloud platforms, modern frameworks, and technological breakthroughs shaping tomorrow.
+            </p>
+            <div class="interest-tags">
+              <span>Tech Trends</span>
+              <span>Open Source</span>
+              <span>Continuous Growth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CAREER GOALS SECTION -->
+    <section class="section" id="goals">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Vision & Roadmap</p>
+          <h2 class="section-title">Career <span class="gradient-text">Goals</span></h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            A structured path toward becoming a skilled software engineer and tech innovator.
+          </p>
+        </div>
+
+        <div class="goals-grid">
+          <!-- Short-Term Goals -->
+          <div class="goal-card glassmorphism">
+            <div class="goal-header">
+              <div class="goal-badge badge-short-term">
+                <i data-lucide="target"></i>
+                <span>Short-Term Goals (Years 1 - 2)</span>
+              </div>
+              <h3 class="goal-title">Foundations & Applied Development</h3>
+            </div>
+            <ul class="goal-list">
+              <li>
+                <div class="goal-bullet"><i data-lucide="check"></i></div>
+                <div>
+                  <strong>Master Data Structures & Algorithms:</strong> Build strong proficiency in C/C++ and Python to excel at algorithmic problem solving.
+                </div>
+              </li>
+              <li>
+                <div class="goal-bullet"><i data-lucide="check"></i></div>
+                <div>
+                  <strong>Full-Stack Web Development:</strong> Transition from core HTML/CSS/JS to modern frameworks and database-driven dynamic web applications.
+                </div>
+              </li>
+              <li>
+                <div class="goal-bullet"><i data-lucide="check"></i></div>
+                <div>
+                  <strong>College Hackathons & Competitions:</strong> Collaborate with peers at JECRC University in coding competitions to build collaborative projects.
+                </div>
+              </li>
+              <li>
+                <div class="goal-bullet"><i data-lucide="check"></i></div>
+                <div>
+                  <strong>Open Source & Git:</strong> Establish an active GitHub presence by contributing to open-source student repositories.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Long-Term Goals -->
+          <div class="goal-card glassmorphism">
+            <div class="goal-header">
+              <div class="goal-badge badge-long-term">
+                <i data-lucide="rocket"></i>
+                <span>Long-Term Goals (Years 3 - Career)</span>
+              </div>
+              <h3 class="goal-title">Engineering Excellence & Innovation</h3>
+            </div>
+            <ul class="goal-list">
+              <li>
+                <div class="goal-bullet"><i data-lucide="check"></i></div>
+                <div>
+                  <strong>Software Development Engineer (SDE):</strong> Secure a high-impact engineering role at an innovative technology organization.
+                </div>
+              </li>
+              <li>
+                <div class="goal-bullet"><i data-lucide="check"></i></div>
+                <div>
+                  <strong>AI & Intelligent Systems Integration:</strong> Design and deploy scalable software products that leverage artificial intelligence to solve practical human challenges.
+                </div>
+              </li>
+              <li>
+                <div class="goal-bullet"><i data-lucide="check"></i></div>
+                <div>
+                  <strong>Continuous Mentorship & Leadership:</strong> Contribute back to student tech communities, conduct technical workshops, and support fellow engineers.
+                </div>
+              </li>
+              <li>
+                <div class="goal-bullet"><i data-lucide="check"></i></div>
+                <div>
+                  <strong>Lifelong Learning:</strong> Keep evolving alongside technological shifts and emerging computational paradigms.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. CONTACT SECTION -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Get in Touch</p>
+          <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Feel free to reach out for student collaborations, inquiries, or tech conversations!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Information & Social Placeholders -->
+          <div class="contact-info-panel glassmorphism">
+            <h3 class="contact-panel-title">Contact Information</h3>
+            <p class="contact-panel-desc">
+              I am always eager to connect with fellow students, developers, professors, and mentors. Reach out via email or connect through my profiles!
+            </p>
+
+            <div class="contact-methods">
+              <!-- Location -->
+              <div class="contact-method-item">
+                <div class="method-icon"><i data-lucide="map-pin"></i></div>
+                <div>
+                  <span class="method-label">Location</span>
+                  <p class="method-val">Jaipur, Rajasthan, India</p>
+                  <span class="method-sub">JECRC University Campus</span>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-method-item">
+                <div class="method-icon"><i data-lucide="mail"></i></div>
+                <div>
+                  <span class="method-label">Email</span>
+                  <a href="mailto:tanishkabindal.work@gmail.com" class="method-val-link">tanishkabindal.work@gmail.com</a>
+                  <span class="method-sub">Primary contact email</span>
+                </div>
+              </div>
+
+              <!-- GitHub Profile Link -->
+              <div class="contact-method-item">
+                <div class="method-icon"><i data-lucide="github"></i></div>
+                <div>
+                  <span class="method-label">GitHub Profile</span>
+                  <a href="https://github.com/tanishkabindal1-alt" target="_blank" rel="noopener noreferrer" class="method-val-link">
+                    github.com/tanishkabindal1-alt
+                  </a>
+                  <span class="method-sub">View repositories & open source projects</span>
+                </div>
+              </div>
+
+              <!-- LinkedIn Profile Link -->
+              <div class="contact-method-item">
+                <div class="method-icon"><i data-lucide="linkedin"></i></div>
+                <div>
+                  <span class="method-label">LinkedIn Profile</span>
+                  <a href="https://www.linkedin.com/in/tanishka-bindal-29177042b" target="_blank" rel="noopener noreferrer" class="method-val-link">
+                    linkedin.com/in/tanishka-bindal-29177042b
+                  </a>
+                  <span class="method-sub">Connect professionally</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-panel glassmorphism">
+            <h3 class="contact-panel-title">Send a Message</h3>
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <div class="input-wrapper">
+                  <i data-lucide="user" class="input-icon"></i>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex Sharma" required>
+                </div>
+                <span class="form-error" id="name-error">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <div class="input-wrapper">
+                  <i data-lucide="at-sign" class="input-icon"></i>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. alex@example.com" required>
+                </div>
+                <span class="form-error" id="email-error">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <div class="input-wrapper">
+                  <i data-lucide="message-square" class="input-icon"></i>
+                  <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Collaboration / Hello!" required>
+                </div>
+                <span class="form-error" id="subject-error">Please enter a subject.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <div class="input-wrapper textarea-wrapper">
+                  <i data-lucide="edit-3" class="input-icon textarea-icon"></i>
+                  <textarea id="message" name="message" rows="4" class="form-input form-textarea" placeholder="Write your message here..." required></textarea>
+                </div>
+                <span class="form-error" id="message-error">Please enter your message.</span>
+              </div>
+
+              <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                <span>Send Message</span>
+                <i data-lucide="send"></i>
+              </button>
+
+              <div id="form-toast" class="form-toast" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-bracket">&lt;</span>TB<span class="logo-bracket">/&gt;</span>
+            <span class="logo-text">Tanishka Bindal</span>
+          </a>
+          <p class="footer-tagline">
+            First-year B.Tech CSE student at JECRC University, Jaipur. Building skills in Computer Science, Web Development, and AI.
+          </p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-heading">Sections</h4>
+          <ul class="footer-links">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#goals">Goals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-heading">Profiles</h4>
+          <ul class="footer-links">
+            <li><a href="https://github.com/tanishkabindal1-alt" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/tanishka-bindal-29177042b" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+            <li><a href="mailto:tanishkabindal.work@gmail.com">Send Email</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> Tanishka Bindal. All rights reserved.
+        </p>
+        <div class="footer-badge">
+          Designed with clean code & modern web standards
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll to top" title="Scroll to top">
+    <i data-lucide="chevron-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
